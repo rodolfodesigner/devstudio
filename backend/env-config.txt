@@ -1,0 +1,33 @@
+# Server Configuration
+PORT=3000
+NODE_ENV=development
+
+# Database
+MONGODB_URI=mongodb://localhost:27017/devstudio
+
+# JWT Secret
+JWT_SECRET=devstudio-super-secret-jwt-key-2024-rodolfo-designer
+
+# Email Configuration (Outlook)
+EMAIL_HOST=smtp-mail.outlook.com
+EMAIL_PORT=587
+EMAIL_USER=rodolfodesigner@outlook.com
+EMAIL_PASS=your-outlook-password-here
+
+# PIX Configuration
+PIX_KEY=rodolfodesigner@outlook.com
+PIX_KEY_TYPE=email
+MERCHANT_NAME=DevStudio
+MERCHANT_CITY=SAO PAULO
+
+# WhatsApp Business API (optional)
+WHATSAPP_API_KEY=your-whatsapp-api-key
+WHATSAPP_PHONE_ID=your-phone-id
+
+# File Upload
+UPLOAD_PATH=./uploads
+MAX_FILE_SIZE=5242880
+
+# Security
+RATE_LIMIT_WINDOW=15
+RATE_LIMIT_MAX=100 
